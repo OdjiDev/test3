@@ -17,6 +17,7 @@ if (!isset($_SESSION["user_id"])) {
 </head>
 
 <body>
+    ma premiere modification
   <div class="sucess">
      <h1>Bienvenue, <?php echo $user['nom']; ?>!</h1>
     <p>Vous êtes connecté en tant qu'utilisateur avec l'adresse email <?php echo $user['email']; ?>.</p>
